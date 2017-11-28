@@ -15,7 +15,7 @@
                <children>
                   <ImageView fitHeight="342.0" fitWidth="601.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../Pictures/Saved%20Pictures/Harmony.jpg" />
+                        <Image url="@../../image/20150526_163441.jpg" />
                      </image>
                   </ImageView>
                </children>

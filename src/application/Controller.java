@@ -4,12 +4,10 @@ import java.io.IOException;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Cursor;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.VBox;
@@ -74,16 +72,15 @@ public class Controller {
 			
 			root1 = (Parent)fxmlLoader.load();
 			Stage stage= new Stage();
-			//Cursor image=new Image("pepe.png");
+			
 			//Y ahora dentro del Stage le metes la escena que anteriormente hemos leído y metido en root1.
 			stage.setScene(new Scene(root1));
 		    stage.initStyle(StageStyle.UNDECORATED);
-		   // root1.cursorProperty().set(image);
+		  
 			// Y ahora le digo que me muestres el stage
 			stage.show();
 			
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
